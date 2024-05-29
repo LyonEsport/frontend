@@ -1,0 +1,10 @@
+<form [formGroup]="form">
+    <p>Email :</p>
+    <input type="email" formControlName="email">
+    <br>
+    <p>Mot de passe :</p>
+    <input type="password" formControlName="password">
+    <br>
+    <br>
+</form>
+<button (click)="verify()">Envoyer</button>
